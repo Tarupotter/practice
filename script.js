@@ -36,4 +36,5 @@ booking_search.innerText = "Search available times";
 
 button.addEventListener("click", function(){
    dialog.showModal(); 
+   document.body.style.opacity = 0.3;
 })

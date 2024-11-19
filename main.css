@@ -17,3 +17,35 @@
     margin-top: 20px;
     cursor: pointer;
 }
+
+.dialogStyle {
+    border-color: rgba(128, 128, 128, 0.443);
+    border-width: 2px;
+    width: 500px;
+    font-family: "roboto", sans-serif;
+}
+
+.titleStyle {
+    margin-bottom: 40px
+}
+
+.questionStyle {
+    margin-bottom: 30px;
+}
+
+.questionStyle, .inputStyle {
+    display: flex;
+}
+
+.inputStyle {
+    width: 150px;
+    height: 25px;
+    margin-bottom: 200px;
+}
+
+.searchStyle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 15px 15px 0px;
+}
