@@ -13,37 +13,37 @@
     margin: 20px;
 }
 
-.buttonStyle {
+.button_style {
     margin-top: 20px;
     cursor: pointer;
 }
 
-.dialogStyle {
+.dialog_style {
     border-color: rgba(128, 128, 128, 0.443);
     border-width: 2px;
     width: 500px;
     font-family: "roboto", sans-serif;
 }
 
-.titleStyle {
+.title_style {
     margin-bottom: 40px
 }
 
-.questionStyle {
+.question_style {
     margin-bottom: 30px;
 }
 
-.questionStyle, .inputStyle {
+.question_style, .input_style {
     display: flex;
 }
 
-.inputStyle {
+.input_style {
     width: 150px;
     height: 25px;
     margin-bottom: 200px;
 }
 
-.searchStyle {
+.search_style {
     position: absolute;
     bottom: 0;
     right: 0;
