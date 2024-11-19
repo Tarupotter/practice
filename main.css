@@ -1,0 +1,19 @@
+.header {
+    background-color: black;
+    height: 150px;
+}
+
+.header_content {
+    display: flex;
+}
+
+.logo {
+    width: 110px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.buttonStyle {
+    margin-top: 20px;
+    cursor: pointer;
+}
