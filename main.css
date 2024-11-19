@@ -26,14 +26,18 @@
 }
 
 .modal__title {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    font-weight: lighter;
+
 }
 
 .modal__question {
     margin-bottom: 30px;
+    font-size: 14px;
 }
 
-.modal__question, .input {
+.modal__question,
+.input {
     display: flex;
 }
 
