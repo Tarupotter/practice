@@ -6,35 +6,35 @@ button.classList.add("button");
 button.innerText = "Klicka här för ett popup fönster";
 div.appendChild(button);
 
-const dialog = document.createElement("dialog");
-dialog.classList.add("dialog");
-div.appendChild(dialog);
+const modal = document.createElement("dialog");
+modal.classList.add("modal");
+div.appendChild(modal);
 
-const booking_title = document.createElement("h3");
-booking_title.classList.add("booking__title");
-dialog.appendChild(booking_title);
-booking_title.innerText = "Book room \"Escape room\" (step 1)";
+const modal_title = document.createElement("h3");
+modal_title.classList.add("modal__title");
+modal.appendChild(modal_title);
+modal_title.innerText = "Book room \"Escape room\" (step 1)";
 
-const booking_question = document.createElement("p");
-booking_question.classList.add("booking__question");
-dialog.appendChild(booking_question);
-booking_question.innerText = "What date would you like to come?";
+const modal_question = document.createElement("p");
+modal_question.classList.add("modal__question");
+modal.appendChild(modal_question);
+modal_question.innerText = "What date would you like to come?";
 
-const booking_date = document.createElement("label");
-booking_date.classList.add("booking__date");
-dialog.appendChild(booking_date);
-booking_date.innerText = "Date";
+const modal_date = document.createElement("label");
+modal_date.classList.add("modal__date");
+modal.appendChild(modal_date);
+modal_date.innerText = "Date";
 
 const input = document.createElement("input");
 input.classList.add("input");
-dialog.appendChild(input);
+modal.appendChild(input);
 
-const booking_search = document.createElement("button");
-booking_search.classList.add("booking__search");
-dialog.appendChild(booking_search);
-booking_search.innerText = "Search available times";
+const modal_search = document.createElement("button");
+modal_search.classList.add("modal__search");
+modal.appendChild(modal_search);
+modal_search.innerText = "Search available times";
 
 button.addEventListener("click", function(){
-   dialog.showModal(); 
+   modal.showModal(); 
    document.body.style.opacity = 0.3;
 })

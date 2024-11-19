@@ -18,22 +18,22 @@
     cursor: pointer;
 }
 
-.dialog {
+.modal {
     border-color: rgba(128, 128, 128, 0.443);
     border-width: 2px;
     width: 500px;
     font-family: "roboto", sans-serif;
 }
 
-.booking__title {
+.modal__title {
     margin-bottom: 40px
 }
 
-.booking__question {
+.modal__question {
     margin-bottom: 30px;
 }
 
-.booking__question, .input {
+.modal__question, .input {
     display: flex;
 }
 
@@ -43,7 +43,7 @@
     margin-bottom: 200px;
 }
 
-.booking__search {
+.modal__search {
     position: absolute;
     bottom: 0;
     right: 0;
