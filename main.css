@@ -13,37 +13,37 @@
     margin: 20px;
 }
 
-.button_style {
+.button {
     margin-top: 20px;
     cursor: pointer;
 }
 
-.dialog_style {
+.dialog {
     border-color: rgba(128, 128, 128, 0.443);
     border-width: 2px;
     width: 500px;
     font-family: "roboto", sans-serif;
 }
 
-.title_style {
+.booking__title {
     margin-bottom: 40px
 }
 
-.question_style {
+.booking__question {
     margin-bottom: 30px;
 }
 
-.question_style, .input_style {
+.booking__question, .input {
     display: flex;
 }
 
-.input_style {
+.input {
     width: 150px;
     height: 25px;
     margin-bottom: 200px;
 }
 
-.search_style {
+.booking__search {
     position: absolute;
     bottom: 0;
     right: 0;
